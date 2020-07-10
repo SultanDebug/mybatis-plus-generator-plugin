@@ -1,0 +1,44 @@
+<idea-plugin>
+  <id>com.your.company.unique.plugin.id</id>
+  <name>myplus-generator</name>
+  <version>1.0</version>
+  <vendor email="hzqsultan@qq.com" url="https://github.com/SultanDebug">contact sultan</vendor>
+
+  <description><![CDATA[
+      hzqsultan@qq.com
+      https://github.com/SultanDebug
+    ]]></description>
+
+  <change-notes><![CDATA[
+      1.后续可增加包路径全配置
+      2.类名全自定义
+      3.凑40个字啊打啊打啊打啊打啊打啊打啊打啊...
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+
+    <group id="Plugin.SampleMenu" text="_CodeGenerator" description="代码生成器">
+      <add-to-group group-id="MainMenu" anchor="last"  />
+      <action id="Plugin.Textboxes" class="com.hzq.plus.MyPlusGenerator" text="_TH CodeGenerator" description="天虹代码生成" />
+    </group>
+
+    <!--<action id="myplus-generator" class="com.hzq.plus.MyPlusGenerator" text="generator" description="code generator">
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl 1"/>
+    </action>-->
+  </actions>
+
+</idea-plugin>
