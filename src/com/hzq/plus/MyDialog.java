@@ -17,7 +17,7 @@ import javax.swing.*;
 public class MyDialog extends DialogWrapper {
     private Project project ;
 
-    //swing样式类，定义在4.3.2
+    //swing样式类
     private MyFormSwing formSwing = new MyFormSwing();
 
     public MyDialog(@Nullable Project project) {
