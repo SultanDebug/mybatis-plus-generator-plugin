@@ -7,6 +7,6 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 
-/.idea
+#/.idea
 /out
-/mybatis-plus-generator-plugin.iml
+#/mybatis-plus-generator-plugin.iml

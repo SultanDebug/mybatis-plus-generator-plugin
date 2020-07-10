@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mybatis-plus-3.3.1">
+    <CLASSES>
+      <root url="jar://E:/mvn_repository/com/baomidou/mybatis-plus/3.3.1/mybatis-plus-3.3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://E:/mvn_repository/com/baomidou/mybatis-plus/3.3.1/mybatis-plus-3.3.1.jar!/" recursive="false" />
+  </library>
+</component>
