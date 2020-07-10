@@ -39,11 +39,11 @@ public class THCodeGenerator
         throw new MybatisPlusException("请输入正确的" + tip + "！");
     }
 
-    public static GlobalConfig getGc(String path,String author){
+    public static GlobalConfig getGc(String path,String author,String module){
         // 全局配置
         GlobalConfig gc = new GlobalConfig();
 
-        gc.setOutputDir(path + "/src/main/java");
+        gc.setOutputDir(path+module + "/src/main/java");
 
         //是否覆盖
         gc.setFileOverride(true);
@@ -55,6 +55,7 @@ public class THCodeGenerator
         gc.setOpen(false);
         //格式化定义类名
         gc.setServiceName("%sService");
+        gc.setEntityName("%sDomain");
         return gc;
     }
 
@@ -83,7 +84,7 @@ public class THCodeGenerator
         return pc;
     }
 
-    public static InjectionConfig getCfg(String path){
+    public static InjectionConfig getCfg(String path,String module){
         // 自定义配置mapper.xml输出路径
         InjectionConfig cfg = new InjectionConfig() {
             @Override
@@ -96,7 +97,7 @@ public class THCodeGenerator
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件路径及名称
-                return path + "/src/main/resources/mapper/" + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
+                return path +module+ "/src/main/resources/mapper/" + tableInfo.getEntityName() + "Mapper" + StringPool.DOT_XML;
             }
         });
         cfg.setFileOutConfigList(focList);
@@ -144,12 +145,12 @@ public class THCodeGenerator
      * 入口
      * 修改todo数据源部分
      */
-    public static void init(String path ,String ip,String user,String pass,String author,String main,String sec,String table) {
+    public static void init(String path ,String ip,String user,String pass,String author,String main,String sec,String table,String module) {
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();
 
         //全局配置
-        GlobalConfig gc = getGc(path,author);
+        GlobalConfig gc = getGc(path,author,module);
         mpg.setGlobalConfig(gc);
 
         //获取数据源
@@ -161,7 +162,7 @@ public class THCodeGenerator
         mpg.setPackageInfo(pkg);
 
         //自定义（特殊输出路径等）
-        InjectionConfig cfg = getCfg(path);
+        InjectionConfig cfg = getCfg(path,module);
         mpg.setCfg(cfg);
 
 

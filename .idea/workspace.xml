@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9e8f5d4-e5c1-4d7e-9b8e-a8e0a6706f6d" name="Default Changelist" comment="邮箱修改" />
+    <list default="true" id="c9e8f5d4-e5c1-4d7e-9b8e-a8e0a6706f6d" name="Default Changelist" comment="配置文件初始化">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzq/plus/MyFormSwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzq/plus/MyFormSwing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hzq/plus/THCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzq/plus/THCodeGenerator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +62,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -145,7 +149,11 @@
       <workItem from="1594370458051" duration="100000" />
       <workItem from="1594372359119" duration="1024000" />
       <workItem from="1594373401394" duration="182000" />
-      <workItem from="1594373837849" duration="730000" />
+      <workItem from="1594373837849" duration="1052000" />
+      <workItem from="1594398610655" duration="582000" />
+      <workItem from="1594399214850" duration="143000" />
+      <workItem from="1594399389217" duration="545000" />
+      <workItem from="1594399953473" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus generator plugin">
       <created>1594374165777</created>
@@ -161,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594374395756</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置文件初始化">
+      <created>1594374631246</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594374631246</updated>
+    </task>
+    <task id="LOCAL-00004" summary="配置文件初始化">
+      <created>1594374841090</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594374841090</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,11 +199,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="mybatis-plus generator plugin" />
     <MESSAGE value="邮箱修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="邮箱修改" />
+    <MESSAGE value="配置文件初始化" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件初始化" />
   </component>
   <component name="WindowStateProjectService">
     <state x="861" y="438" width="662" height="275" key="#Notifications" timestamp="1594281565448">
@@ -216,10 +240,14 @@
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
     <state width="1117" height="466" key="DebuggerActiveHint/0.0.1955.1152@0.0.1955.1152" timestamp="1594371650051" />
-    <state x="759" y="331" key="FileChooserDialogImpl" timestamp="1594374517244">
+    <state x="93" y="93" width="1770" height="966" key="DiffContextDialog" timestamp="1594399016291">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
-    <state x="759" y="331" key="FileChooserDialogImpl/0.0.1955.1152@0.0.1955.1152" timestamp="1594374517244" />
+    <state x="93" y="93" width="1770" height="966" key="DiffContextDialog/0.0.1955.1152@0.0.1955.1152" timestamp="1594399016291" />
+    <state x="759" y="331" key="FileChooserDialogImpl" timestamp="1594399930074">
+      <screen x="0" y="0" width="1955" height="1152" />
+    </state>
+    <state x="759" y="331" key="FileChooserDialogImpl/0.0.1955.1152@0.0.1955.1152" timestamp="1594399930074" />
     <state x="949" y="414" key="FileChooserDialogImpl/0.0.2444.1440@0.0.2444.1440" timestamp="1594289232387" />
     <state width="1913" height="383" key="GridCell.Tab.0.bottom" timestamp="1594372150163">
       <screen x="0" y="0" width="1955" height="1152" />
@@ -273,23 +301,27 @@
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
     <state x="559" y="311" key="IDE.errors.dialog/0.0.1955.1152@0.0.1955.1152" timestamp="1594285793092" />
-    <state x="459" y="151" key="SettingsEditor" timestamp="1594373938881">
+    <state x="459" y="151" key="SettingsEditor" timestamp="1594399933241">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
-    <state x="459" y="151" key="SettingsEditor/0.0.1955.1152@0.0.1955.1152" timestamp="1594373938881" />
+    <state x="459" y="151" key="SettingsEditor/0.0.1955.1152@0.0.1955.1152" timestamp="1594399933241" />
     <state x="574" y="189" key="SettingsEditor/0.0.2444.1440@0.0.2444.1440" timestamp="1594289243955" />
     <state x="700" y="318" width="540" height="524" key="StructurePopup" timestamp="1594367622341">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
     <state x="700" y="318" width="540" height="524" key="StructurePopup/0.0.1955.1152@0.0.1955.1152" timestamp="1594367622341" />
-    <state x="571" y="309" key="Vcs.Push.Dialog.v2" timestamp="1594374397269">
+    <state x="571" y="309" key="Vcs.Push.Dialog.v2" timestamp="1594374842858">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
-    <state x="571" y="309" key="Vcs.Push.Dialog.v2/0.0.1955.1152@0.0.1955.1152" timestamp="1594374397269" />
+    <state x="571" y="309" key="Vcs.Push.Dialog.v2/0.0.1955.1152@0.0.1955.1152" timestamp="1594374842858" />
     <state width="985" height="583" key="XDebugger.FullValuePopup" timestamp="1594288769870">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
     <state width="985" height="583" key="XDebugger.FullValuePopup/0.0.1955.1152@0.0.1955.1152" timestamp="1594288769870" />
+    <state x="773" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594398615435">
+      <screen x="0" y="0" width="1955" height="1152" />
+    </state>
+    <state x="773" y="489" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1955.1152@0.0.1955.1152" timestamp="1594398615435" />
     <state width="500" height="172" key="documentation.popup.size" timestamp="1594364868773">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>

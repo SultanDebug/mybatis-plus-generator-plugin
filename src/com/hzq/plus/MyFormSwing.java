@@ -38,6 +38,9 @@ public class MyFormSwing {
     private JLabel name = new JLabel("代码注释作者：");
     private JTextField nameContent = new JTextField("huangzq");
 
+    private JLabel module = new JLabel("maven模块路径（如 /mall-store-backend）：");
+    private JTextField moduleContent = new JTextField("/mall-store-backend");
+
     private JLabel mainPkg = new JLabel("代码输出主包名（如com.lingzhi.saas）：");
     private JTextField mainPkgContent = new JTextField("com.lingzhi.saas");
 
@@ -65,7 +68,7 @@ public class MyFormSwing {
         //定义表单的主体部分，放置到IDEA会话框的中央位置
 
         //一个简单的3行2列的表格布局
-        center.setLayout(new GridLayout(7, 2));
+        center.setLayout(new GridLayout(8, 2));
 
         //row1：按钮事件触发后将结果打印在这里
         /*r1.setForeground(new Color(255, 47, 93)); //设置字体颜色
@@ -88,6 +91,10 @@ public class MyFormSwing {
         //row2：作者
         center.add(pass);
         center.add(passContent);
+
+        //row2：作者
+        center.add(module);
+        center.add(moduleContent);
 
         //row3：主包
         center.add(mainPkg);
@@ -124,13 +131,14 @@ public class MyFormSwing {
             String main = mainPkgContent.getText();
             String sec = secPkgContent.getText();
             String table = tableContent.getText();
+            String module = moduleContent.getText();
             //刷新r2标签里的内容，替换为name和age
 //            r2.setText(String.format("name:%s, age:%s", name, age));
 
             String path = project.getBasePath();
             try {
 //                THCodeGenerator.init(path,"黄震强" ,"com.hzq.demo","elevator","module_elevator_data");
-                THCodeGenerator.init(path,ip,user,pass,name ,main,sec,table);
+                THCodeGenerator.init(path,ip,user,pass,name ,main,sec,table,module);
 //            THCodeGenerator.init(path);
             }catch (Exception ex){
                 Messages.showMessageDialog(project, ex.getMessage(), "Error", Messages.getErrorIcon());
