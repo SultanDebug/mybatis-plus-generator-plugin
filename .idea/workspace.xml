@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9e8f5d4-e5c1-4d7e-9b8e-a8e0a6706f6d" name="Default Changelist" comment="配置文件初始化">
+    <list default="true" id="c9e8f5d4-e5c1-4d7e-9b8e-a8e0a6706f6d" name="Default Changelist" comment="修改">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzq/plus/MyFormSwing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzq/plus/MyFormSwing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/hzq/plus/THCodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hzq/plus/THCodeGenerator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +151,7 @@
       <workItem from="1594398610655" duration="582000" />
       <workItem from="1594399214850" duration="143000" />
       <workItem from="1594399389217" duration="545000" />
-      <workItem from="1594399953473" duration="599000" />
+      <workItem from="1594399953473" duration="1266000" />
     </task>
     <task id="LOCAL-00001" summary="mybatis-plus generator plugin">
       <created>1594374165777</created>
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594374841090</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="修改">
+      <created>1594400883991</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594400883991</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +210,8 @@
     <MESSAGE value="mybatis-plus generator plugin" />
     <MESSAGE value="邮箱修改" />
     <MESSAGE value="配置文件初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件初始化" />
+    <MESSAGE value="修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改" />
   </component>
   <component name="WindowStateProjectService">
     <state x="861" y="438" width="662" height="275" key="#Notifications" timestamp="1594281565448">
@@ -310,10 +316,10 @@
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
     <state x="700" y="318" width="540" height="524" key="StructurePopup/0.0.1955.1152@0.0.1955.1152" timestamp="1594367622341" />
-    <state x="571" y="309" key="Vcs.Push.Dialog.v2" timestamp="1594374842858">
+    <state x="571" y="309" key="Vcs.Push.Dialog.v2" timestamp="1594400886412">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
-    <state x="571" y="309" key="Vcs.Push.Dialog.v2/0.0.1955.1152@0.0.1955.1152" timestamp="1594374842858" />
+    <state x="571" y="309" key="Vcs.Push.Dialog.v2/0.0.1955.1152@0.0.1955.1152" timestamp="1594400886412" />
     <state width="985" height="583" key="XDebugger.FullValuePopup" timestamp="1594288769870">
       <screen x="0" y="0" width="1955" height="1152" />
     </state>
